@@ -2,7 +2,7 @@
 
 `npm install @immutabl3/random-token`
 
-Generates a base64, url-safe token. Uses `-` and `_` as the two wildcards for the url (along with `0-9`, `a-z`, and `A-Z`).
+Generates a base64, url-safe token. Uses `-`, `_`, `0-9`, `a-z`, and `A-Z`.
 
 # Usage
 
