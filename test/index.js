@@ -36,6 +36,7 @@ test('valid', assert => {
 	assert.notOk(token.valid(';zz;'), 'token with invalid characters should fail');
 	assert.notOk(token.valid('   ;zz;   '), 'passed token with invalid characters should fail');
 	assert.ok(token.valid('aZ-_09'), 'valid token should be valid');
+	assert.notOk(token.valid('aZ-_09', 7), 'valid token with invalid length should be invalid');
 
 	assert.end();
 });
