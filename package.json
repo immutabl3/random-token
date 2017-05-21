@@ -1,0 +1,27 @@
+{
+  "name": "@immutabl3/random-token",
+  "version": "0.0.1",
+  "description": "generates a base-64, url-safe token",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/immutabl3/random-token.git"
+  },
+  "author": "JosephClay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/immutabl3/random-token/issues"
+  },
+  "homepage": "https://github.com/immutabl3/random-token#readme",
+  "devDependencies": {
+    "lodash": "^4.17.4",
+    "tap-dot": "^1.0.5",
+    "tape": "^4.6.3"
+  }
+}
