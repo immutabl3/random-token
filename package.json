@@ -18,6 +18,11 @@
   "bugs": {
     "url": "https://github.com/immutabl3/random-token/issues"
   },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
   "homepage": "https://github.com/immutabl3/random-token#readme",
   "devDependencies": {
     "lodash": "^4.17.4",
